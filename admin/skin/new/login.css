@@ -1,0 +1,43 @@
+body 
+{
+	font-size:12px;
+	font-family:"宋体";
+	color: #000000;
+	SCROLLBAR-FACE-COLOR: #f8fffe;
+	SCROLLBAR-HIGHLIGHT-COLOR: #f8fffe;
+	SCROLLBAR-SHADOW-COLOR: #f8fffe;
+	SCROLLBAR-3DLIGHT-COLOR: #f8fffe;
+	SCROLLBAR-ARROW-COLOR: #f8fffe;
+	SCROLLBAR-TRACK-COLOR: #f8fffe;
+	SCROLLBAR-DARKSHADOW-COLOR: #f8fffe;
+
+	background-color: #EFEFEF;
+}
+.skyLoginInput{
+	font-size: 12px;
+	background-color: #FFFFFF;
+	font-family:宋体;
+	color:#000000;
+	border: 1px solid #5C5D5F;
+	WIDTH:80px
+}
+.skyLoginFont
+{
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}.skyCopyFont {
+	font-size: 12px;
+	line-height: 25px;
+}
+.tdbg {
+	background-image: url(index.jpg);
+	height: 430px;
+	width: 792px;
+}
+.skyOnlineUser {
+	font-size: 12px;
+	line-height: 20px;
+	text-align: right;
+	margin-right: 20px;
+}

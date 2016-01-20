@@ -1,0 +1,175 @@
+
+/* 清除块级元素的边距/间距 设置页面基本字体/字号
+---------------------------------------------------------------------------*/
+ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,div,p,blockquote,fieldset,input,select,textarea,option,button {
+	margin:0;
+	padding:0;
+	font-family:"宋体";
+	font-size:12px;
+}
+
+/* 清除有序列表ul/无序列表ol的列表样式
+---------------------------------------------------------------------------*/
+ul,ol { list-style:none; }
+
+/* 设置字号为基准字号
+---------------------------------------------------------------------------*/
+h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
+
+/* 清除图片连接的边框
+---------------------------------------------------------------------------*/
+a img,:link img,:visited img { border:none; }
+
+/* 清除地址address的字体样式
+---------------------------------------------------------------------------*/
+address { font-style:normal; }
+
+/* 清除强调标签em的字体样式
+---------------------------------------------------------------------------*/
+em {
+	font-style:normal;
+}
+
+
+/* 清除浮动样式
+---------------------------------------------------------------------------*/
+.clear {
+	clear:both;
+}
+
+/* 清除浮动样式(标准)
+---------------------------------------------------------------------------*/
+.clearsearch:after {
+	content:".";
+	display:block;
+	height:0;
+	font-size:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearsearch {
+	min-height:1px;
+}
+* html .clearsearch {
+	height:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #searchBox {
+	/*display:none;*/
+	padding:10px 0 5px 20px;
+	
+	
+}
+
+	 #searchBox p {
+		float:left;
+		width:200px;/*width:190px;*/
+		height:25px;
+		line-height:25px;
+		color:#03515D;
+	}
+	
+		 #searchBox p.funBtnBox input {
+			width:100px;
+			height:22px;
+			line-height:22px;
+			border:0;
+			color:#03515D;
+			font-weight:bold;
+		}
+	
+	
+	
+	 #searchBox p#searchSubmit {
+		padding-left:20px;
+		width:170px;
+	}
+	
+		 #searchBox p#searchSubmit input {
+			width:82px;
+			height:22px;
+			line-height:22px;
+			border:0;
+		}
+		
+		#searchBox p#chklist
+		{
+		margin:0px 0px 0px 10px;
+		}
+		#searchBox p#chklist input {
+			width:13px;
+			height:13px;
+			line-height:22px;
+			border:0;
+			margin:5px 0px 0px 0px;
+		}
+		
+		#searchBox p#chklist label{
+			float:left;
+			height:22px;
+			margin:0px 0px 0px 0px !important;
+			margin:-17px 0px 0px 0px;
+			line-height:22px;
+			color:#FF0000;
+			border:0;
+		}
+		
+		#searchBox p#searchSubmit input:hover
+		{
+			color:#FF0000;
+		}
+	
+	 #searchBox label {
+		float:left;
+		margin-top:-3px;
+		width:74px;/*width:64px;*/
+		text-align:right;
+		font-size: 12px;
+		font-weight:normal;
+		padding:0;
+	}
+	
+	 #searchBox input {
+		width:120px;
+		height:18px;
+		border: 1px solid #C8C8C6;
+	}
+	 #searchBox select
+	 {
+	 	width:120px;
+		height:20px;
+		line-height:18px;
+		border: 1px solid #C8C8C6;
+	 }
+	
+	 #searchBox input.checkBox 
+	{
+		width:auto;
+		border:0;
+		background-color:#e3efff;
+	}
+	
+	
+	 #searchBox select {
+		width:120px;
+		font-family:"宋体";
+		font-size:12px;
+	}

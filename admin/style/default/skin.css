@@ -1,0 +1,438 @@
+﻿body{
+	BACKGROUND-COLOR: #ffffff;
+	SCROLLBAR-FACE-COLOR: #eeeeee; 
+	SCROLLBAR-HIGHLIGHT-COLOR:#ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #aaaaaa; 
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-ARROW-COLOR: #666666; 
+	SCROLLBAR-TRACK-COLOR: #ffffff; 
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+}
+
+td,th
+{
+font-size: 12px;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #00FF66;
+	text-decoration: underline;
+}
+a:active {
+	color: #00FF66;
+	text-decoration: none;
+}
+/*----------------------------------------------------------------------------*/
+/*外部表格设计----------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+input.submit
+{
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(bgbtn2_0.gif); BORDER-LEFT: medium none; WIDTH: 40px; CURSOR: hand; BORDER-BOTTOM: medium none; FONT-FAMILY: "??"; HEIGHT: 20px
+}
+input.button
+{
+	BORDER-RIGHT: medium none;
+	BORDER-TOP: medium none;
+	FONT-SIZE: 12px;
+	BACKGROUND-IMAGE: url(input.gif);
+	BORDER-LEFT: medium none;
+	WIDTH: 40px;
+	CURSOR: hand;
+	BORDER-BOTTOM: medium none;
+	FONT-FAMILY: "??";
+	HEIGHT: 20px
+}
+SELECT {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #f4f4f4
+}
+asp:unknown {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; COLOR: #000000; FONT-FAMILY: ??; BACKGROUND-COLOR: #e8e8e8; BORDER-RIGHT-WIDTH: 1px
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; SCROLLBAR-FACE-COLOR: #cccccc; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; SCROLLBAR-HIGHLIGHT-COLOR: #f5f9ff; SCROLLBAR-SHADOW-COLOR: #828282; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #797979; SCROLLBAR-TRACK-COLOR: #cccccc; SCROLLBAR-DARKSHADOW-COLOR: #000000; BACKGROUND-COLOR: #f4f4f4; BORDER-RIGHT-WIDTH: 1px
+}
+INPUT2 {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; COLOR: #000000; FONT-FAMILY: ??; BACKGROUND-COLOR: #e8e8e8; BORDER-RIGHT-WIDTH: 1px
+}
+INPUT {
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+    FONT-FAMILY: ??;
+	background-image: url(input.gif);
+	height: 20px;
+	border: 1px solid #C8C8C6;
+}
+/*----------------------------------------------------------------------------*/
+/*外部表格设计----------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.SkyButtonBlur
+{
+	font-size: 12px;
+	color: #1065AD;
+	background-image: url(btnSave.jpg);
+	filter:alpha(opacity=100);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 22px;
+	width: 82px;
+	border: 0px none;
+}
+.SkyButtonFocus
+{
+	font-size: 12px;
+	color: #000000;
+	background-image: url(btnSave.jpg);
+	filter:alpha(opacity=100);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 22px;
+	width: 82px;
+	border: 0px none;
+	font-weight: normal;
+}
+/*----------------------------------------------------------------------------*/
+/*外部表格设计----------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.Wtablemain{ width:100%;}
+.WtableNav{color: #03515d;font-size: 12px;}
+.WtableTBig{font-size: 12px; font-weight: bold;text-indent: 5px;}
+.Wtablenormal{font-size: 12px;text-indent: 5px;}
+.WtableT
+{
+	background-image: url(tab/tab_05.gif);
+	background-color:#FFFFFF;
+	font-size: 12px;
+}
+.WtableTleft
+{
+	background-image: url(tab/tab_03T.gif);
+	height: 30px;
+	width: 12px;
+}
+.WtableTcenter
+{
+	background-image: url(tab/tab_05.gif);
+	background-color:#FFFFFF;
+	font-size: 12px;
+}
+.WtableTright
+{
+	background-image: url(tab/tab_07T.gif);
+	height: 30px;
+	width: 16px;
+}
+.WtableF
+{
+	background-image: url(tab/tab_19.gif);
+	height: 35px;
+}
+.WtableFleft
+{
+	background-image: url(tab/tab_18.gif);
+	height: 35px;
+	width: 12px;
+}
+.WtableFcenter
+{
+	background-image: url(tab/tab_19.gif);
+	height: 35px;
+}
+.WtableFright
+{
+	background-image: url(tab/tab_20.gif);
+	height: 35px;
+	width: 16px;
+}
+/*----------------------------------------------------------------------------*/
+
+.tablemain{ width:100%;}
+.tableNav{color: #03515d;font-size: 12px;}
+.tableTBig{
+	font-size: 12px;
+	font-weight: normal;
+	text-indent: 5px;
+}
+.tablenormal{font-size: 12px;text-indent: 5px;}
+.tablenoprinfo{font-size: 12px;text-indent: 5px;}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*顶部表格设计----------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.tableT
+{
+	background-image: url(tab/tab_05.gif);
+	background-color:#FFFFFF;
+	font-size: 12px;
+}
+.tableTleft
+{
+	background-image: url(tab/tab_03.gif);
+	height: 30px;
+	width: 12px;
+}
+.tableTcenter
+{
+	background-image: url(tab/tab_05.gif);
+	background-color:#FFFFFF;
+	font-size: 12px;
+}
+.tableTright
+{
+	background-image: url(tab/tab_07.gif);
+	height: 30px;
+	width: 16px;
+}
+/*----------------------------------------------------------------------------*/
+/*结束顶部表格设计------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*中部表格设计----------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.tableC
+{
+	background-color:#FFFFFF;
+	font-size: 12px;
+}
+.tableCleft
+{
+	background-image: url(tab/tab_12.gif);
+	width: 8px;
+}
+.tableCcenter
+{
+	background-color:#FFFFFF;
+	font-size: 12px;
+}
+.tableCright
+{
+	background-image: url(tab/tab_15.gif);
+	width: 8px;
+}
+/*----------------------------------------------------------------------------*/
+/*结束中部表格设计------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*底部表格设计----------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.tableF
+{
+	background-image: url(tab/tab_19.gif);
+	height: 35px;
+}
+.tableFleft
+{
+	background-image: url(tab/tab_18.gif);
+	height: 35px;
+	width: 12px;
+}
+.tableFcenter
+{
+	background-image: url(tab/tab_19.gif);
+	height: 35px;
+}
+.tableFright
+{
+	background-image: url(tab/tab_20.gif);
+	height: 35px;
+	width: 16px;
+}
+/*----------------------------------------------------------------------------*/
+/*结束底部表格设计------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*开始内部表格设计------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.Ntable
+{
+	background-color:#b5d6e6;
+}
+.NtableT
+{
+	background-image: url(tab/bg.gif);
+	height: 20px;
+	font-size: 12px;
+}
+.NtableInfo
+{
+	background-color:#FFFFFF;
+	height: 20px;
+	font-size: 12px;
+}
+/*----------------------------------------------------------------------------*/
+/*开始内部表格设计------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.SkyTableLine
+{
+	background-color:#b5d6e6;
+}
+.SkyTDLine {
+	background-color: #FFFFFF;
+	height: 25px;
+	background-image: url(line.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	font-size: 12px;
+	cursor: default;
+	line-height: 20px;
+	text-indent: 0px;
+}
+.SkyTDTopLine
+{
+	background-image: url(tab/bg.gif);
+	height: 20px;
+	font-size: 12px;
+	background-color: #EAF7FC;
+	background-repeat: repeat-x;
+}
+.SkyTD3Table{
+	font-size: 12px;
+	width: 100%;
+	background-image: url(Menu3.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 28px;
+	background-color: #FFFFFF;
+	text-indent: 40px;
+	font-weight: bold;
+	color: #000000;
+ }
+ .SkyDrpInfo{
+ 	height:12px; width:60px; border:1px solid #999999;
+ }
+ .skyButtonLink{
+	background-color: #EEEEEE;
+	height: 15px;
+	width: 43px;
+	background-image: url(Button.gif);
+	background-repeat: no-repeat;
+	text-align: center;
+	vertical-align: bottom;
+	color: #000000;	
+}
+.skyLog1{
+	background-image: url(true.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.skyLog0{
+	background-image: url(false.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+/*----------------------------------------------------------------------------*/
+/*正确或者错误    ------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.navPoint { 
+	COLOR: white; CURSOR: hand; FONT-FAMILY: Webdings; FONT-SIZE: 9pt 
+} 
+.SkyUserPrint {
+	border: 1px solid #999999;
+}
+#Pager a{
+	font-size: 12px;
+	line-height: 30px;
+	border: 1px solid #B5D6E6;
+	width: 50px;
+	height: 20px;
+	background-color: #FFFFFF;
+	padding-top: 2px;
+	padding-right: 6px;
+	padding-bottom: 2px;
+	padding-left: 6px;
+}
+#Pager a:hover{
+	font-size: 12px;
+	line-height: 30px;
+	border: 1px solid #00CC99;
+	width: 50px;
+	height: 20px;
+	background-color: #FFFFFF;
+	padding-top: 2px;
+	padding-right: 6px;
+	padding-bottom: 2px;
+	padding-left: 6px;
+	color: #FF0000;
+}
+.itemStyle1
+{
+	width:50px;
+}.itemStyle2
+{
+	width:50px;
+}.itemStyle10
+{
+	width:50px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*拖动表格    ------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+body, table, td {
+	font-size:12px
+}
+* {
+	padding:0;
+	margin:0
+}
+.Ntable {
+	
+	/*table-layout:fixed*/
+}
+.Ntable tr {
+	
+}
+.sortheader {
+	color:#fff;
+	text-decoration:none
+}
+/*超出单元格隐藏内容*/
+.Ntable th, .Ntable td {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+.head th {
+	color:#fff;
+filter:progid:DXImageTransform.microsoft.gradient(gradienttype=0, startColorStr=#5075B4, endColorStr=#78B1F3)
+}
+.list th {
+	color:#000;
+	font-weight:normal;
+	border-top:1px solid #fff
+}
+.list td {
+	border-top:1px solid #fff;
+	border-left:1px solid #fff
+}
+/*拖动单元格*/
+.resizeDiv {
+	width:2px;
+	overflow:hidden;
+	float:right;
+	cursor:col-resize
+}
+.sortarrow {
+	color:#ffc;
+	font-weight:normal
+}
+/*Loading样式*/
+#divLoading
+{
+	position: absolute; width: 50px; height: 50px; 
+	left: expression((document.body.clientWidth-50)/2);
+    top: expression((document.body.clientHeight-50)/2);
+}

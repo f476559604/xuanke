@@ -1,0 +1,12 @@
+﻿@import url(styletop.css);
+@import url(styledown.css);
+@import url(styleleft.css);
+@import url(styleright.css);
+@import url(stylemanager.css);
+@import url(stylesearch.css);
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
